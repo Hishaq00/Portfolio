@@ -210,9 +210,6 @@ class Portfolio {
                             
                             <h3>Project Links</h3>
                             <div class="modal-links">
-                                <a href="${item.link}" class="btn btn-primary" target="_blank">
-                                    <i class="fas fa-external-link-alt"></i> Live Demo
-                                </a>
                                 <a href="${item.github}" class="btn btn-secondary" target="_blank">
                                     <i class="fab fa-github"></i> Source Code
                                 </a>
@@ -439,4 +436,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Export Portfolio class for external use
 window.Portfolio = Portfolio;
+
 
