@@ -18,7 +18,16 @@ class Portfolio {
     loadPortfolioData() {
         // Portfolio data - you can modify this with your actual projects
         this.portfolioData = [
-            {
+              {
+                id: 8,
+                title: "FurShield",
+                description: "FurShield is a pet care management system designed to help users adopt, manage, and protect their pets with ease. It provides features like pet adoption,shelter management, product listings, and a user-friendly dashboard — making pet care more accessible and organized.",
+                image: "assets/Furshield.jpg",
+                category: ".net",
+                tech: ["ASP.NET Core", "C#", "SQL Server"],
+                link: "https://app-lpgpos-profilixa-prod-uaenorth-fffrfuhvhkapf6bh.uaenorth-01.azurewebsites.net/Site",
+                github: "https://github.com/Hishaq00/FurShield"
+            }, {
                 id: 1,
                 title: "ABCD-Mall",
                 description: "An advanced mall booking and shopping platform built with ASP.NET Core MVC, featuring user authentication, product catalog, cart system, slot booking, and email notifications.",
@@ -436,5 +445,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Export Portfolio class for external use
 window.Portfolio = Portfolio;
+
 
 
