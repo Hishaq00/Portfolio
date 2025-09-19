@@ -162,6 +162,10 @@ class Portfolio {
                     ${item.tech.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
                 </div>
                 <div class="portfolio-actions">
+                <a href="${item.live}" class="portfolio-link" target="_blank">
+    <i class="fas fa-external-link-alt"></i> View Live
+</a>
+
                     <a href="${item.github}" class="portfolio-link" target="_blank">
                         <i class="fab fa-github"></i> View Code
                     </a>
@@ -445,6 +449,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Export Portfolio class for external use
 window.Portfolio = Portfolio;
+
 
 
 
